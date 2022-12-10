@@ -18,10 +18,12 @@ function create_shop(shop_name) {
   shop.style = 'background-image: url("' + shop_logo + '");';
 
   shop.onclick = go_to_shop;
-  
+
   return shop;
 }
 
 function go_to_shop() {
-  window.location.href = 'shop_page.html';
+  setTimeout(() => {
+    window.location.href = 'shop_page.html';
+  }, 1000);
 }
