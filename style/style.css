@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-
+  z-index: 0;
 }
 
 #title-container {
@@ -45,6 +45,12 @@ body {
   background-position: center;
   
   margin: 50px;
+}
+
+.shop:hover {
+  height: 200px;
+  width: 200px;
+  margin: 25px;
 }
 
 .flex-column {
