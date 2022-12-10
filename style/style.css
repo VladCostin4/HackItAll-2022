@@ -47,16 +47,10 @@ body {
   margin: 50px;
 }
 
-.shop:hover {
+.shop:active {
   height: 200px;
   width: 200px;
   margin: 25px;
-}
-
-.shop:visited {
-  height: 150px;
-  width: 150px;
-  margin: 50px;
 }
 
 .flex-column {
