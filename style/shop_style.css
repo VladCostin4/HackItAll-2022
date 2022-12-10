@@ -1,0 +1,55 @@
+body {
+  background-color:pink;
+}
+
+#container {
+
+}
+
+#open_shop_logo {
+  height: 30vh;
+  width: 30vh;
+  
+  min-height: 150px;
+  min-width: 150px;
+
+  margin: 5vh 0;
+
+  border-radius: 50%;
+
+  background-color: white;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+  
+  background-color: white;
+  background-image: none;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  margin: 50px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  justify-content: center;
+}
